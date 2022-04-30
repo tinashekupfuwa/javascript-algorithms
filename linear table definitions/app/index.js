@@ -1,8 +1,5 @@
-import { lineartable } from "./linear-table-definition";
+import { lineartable, score } from "./linear-table-definition.js"; //remember to put the file extension!always!
 
-const ltable = document.querySelectorAll('.lineartable');
+const ltable = document.getElementById('ltable');
 
-let scores = [40, 56, 2, 87, 90, 32, 45, 123];
-ltable.textContent = 'this is working';
-
-console.log(`running`);
+ltable.textContent = ();
