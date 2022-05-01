@@ -1,15 +1,28 @@
 //linear table is a sequence of elements.its a one-dimensional array.
 
-let score = [12, 45, 21, 67, 54, 78, 21];
+const people = [
+  {
+    first: `tinashe`,
+    last: `kupfuwa`,
+    IDNumber:`43986-l07`
+  },
+    {
+    first: `jasper`,
+    last: `king`,
+    IDNumber:`482186-S91`
+  },
+      {
+    first: `tinashe`,
+    last: `kupfuwa`,
+    IDNumber:`128686-g12`
+  },
+]
 
-const lineartable = (arrayInput) => { 
-  for (let i = 0; i < arrayInput.length; i++) { 
-    console.log(arrayInput[i] + ',');
+
+const printArray = (setArray) => { 
+  for (let i = 0; i < setArray.length; i++) { 
+    console.log(setArray[i])
   }
+}  
 
-}
-
-
-
-
-export { lineartable, score}
+export { people, printArray}
