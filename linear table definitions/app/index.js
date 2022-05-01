@@ -1,3 +1,5 @@
 import { printArray, people } from './linear-table-definition.js'
+import { maxValue, ramNumbers } from './MaximumValue.js';
 
-printArray(people);
+
+console.log(printArray(people), maxValue(ramNumbers));
